@@ -3,6 +3,9 @@ uuid = "1beee101-8e09-4165-b3f9-a3e33534e38b"
 authors = ["Vincent Le Chenadec <vincentlechenadec@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+libvofi_jll = "62e11466-777e-5a8a-800b-95b03cc31b38"
+
 [compat]
 julia = "1"
 
