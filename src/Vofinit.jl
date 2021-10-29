@@ -1,4 +1,4 @@
-module Vofi
+module Vofinit
 
 using libvofi_jll
 
@@ -40,6 +40,5 @@ end
 function __init__()
     cintegrand[] = @cfunction(integrand, Cdouble, (Ptr{Cdouble}, Ptr{Cvoid}))
 end
-
 
 end
